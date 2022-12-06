@@ -1,9 +1,9 @@
 import React from 'react';
-import { Card, Grid, Text, Button, Row } from "@nextui-org/react";
+import { Card, Grid, Text, Button, Col, Row } from "@nextui-org/react";
 
 const PendingDeposit = () => {
   return (
-    <Card rounded="true">
+    <Card rounded="true" css={{ p: "$6",}}>
     
       <Grid>
         <Col>

@@ -3,7 +3,7 @@ import { Card, Grid, Text, Button, Row } from "@nextui-org/react";
 
 const PendingWithdrawal = () => {
   return (
-    <Card rounded="true">
+    <Card  css={{ p: "$6", mw: "400px", color:'$accents7' }} rounded="true" back >
       <Grid>
       
     
